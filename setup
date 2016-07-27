@@ -9,3 +9,4 @@ npm install express
 npm install forever
 vim app.js
 forever start -a app.js
+apt-get install nginx
