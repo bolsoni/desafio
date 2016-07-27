@@ -1,0 +1,11 @@
+
+curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+source ~/.profile
+nvm install 4.4.7
+nvm use 4.4.7
+mkdir /usr/local/webservice
+cd /usr/local/webservice
+npm install express
+npm install forever
+vim app.js
+forever start -a app.js
